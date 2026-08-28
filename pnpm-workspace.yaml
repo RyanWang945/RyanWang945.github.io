@@ -1,0 +1,12 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+minimumReleaseAgeExclude:
+  - astro@7.2.9
+overrides:
+  "@types/hast": ^3.0.5
+  brace-expansion: ^5.0.9
+  js-yaml: ^4.3.1
+  nanoid: ^3.3.18
+  postcss: ^8.5.23
+  svgo: ^4.0.2

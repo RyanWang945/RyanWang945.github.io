@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ryan Wang">
+  <rect width="64" height="64" rx="14" fill="#2563eb"/>
+  <path d="M15 17h15c9 0 14 4 14 11 0 5-3 9-8 10l11 10H36L27 39h-3v9h-9V17Zm9 8v7h6c3 0 5-1 5-4s-2-3-5-3h-6Z" fill="#fff"/>
+</svg>
