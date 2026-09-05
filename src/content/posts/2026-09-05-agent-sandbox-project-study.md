@@ -11,6 +11,8 @@ description: "梳理 Agent Sandbox 的核心 CRD、控制器调谐、预热池�
 
 # Agent Sandbox 项目学习
 
+项目地址：[kubernetes-sigs/agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox)
+
 ## 1. 引言
 
 在我的概念中，Agent party is over。后面整体 Agent 会变得非常同质化，比如都像 Codex，能完成的任务也差不多，区别更多在于背后的模型能力，而模型能力也在趋于同质化。Now it's time for application，如何用 Agent 解决更多的问题，做出更能帮助客户的产品。
