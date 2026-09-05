@@ -119,6 +119,10 @@ Claim 支持 `additionalPodMetadata`、`env`、`volumeClaimTemplates`，以及 `
 
 如果 Claim 指定了 `env` 或自定义 `volumeClaimTemplates`，就会绕过预热实例并冷启动，因为运行中的 Pod 无法安全地原地修改这些配置。
 
+### 3.5 总结后的使用方式
+对于无需预热池的场景，只需要直接创建 sandbox。
+对于需要预热池的场景，首先创建好 SandboxTemplate，然后创建 SandboxWarmPool，其中引用了具体的 SandboxTemplate（相当于配置和实例解耦），同时定义了预热池中有多少副本。最后，用户需要 sandbox 时，创建 SandboxClaim 从匹配的预热池中获取已经创建好的 sandbox。
+
 ## 4. 具体实现
 
 项目主体其实很直接。对于 Sandbox Controller，Reconcile 的主线就是：
