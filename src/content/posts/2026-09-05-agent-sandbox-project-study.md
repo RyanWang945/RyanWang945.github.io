@@ -6,6 +6,7 @@ draft: false
 tags:
   - kubernetes
   - agent
+  - sandbox
 description: "梳理 Agent Sandbox 的核心 CRD、控制器调谐、预热池接管、暂停恢复，以及 Kubernetes 最终一致性下的并发与故障恢复。"
 ---
 
