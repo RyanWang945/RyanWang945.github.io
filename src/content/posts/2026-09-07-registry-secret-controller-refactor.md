@@ -1,7 +1,7 @@
 ---
 title: "从 29 秒到 0.35 秒：重构我在阿云负责的组件"
 pubDatetime: 2026-09-07T00:34:11+08:00
-featured: false
+featured: true
 draft: false
 tags:
   - kubernetes
