@@ -43,8 +43,27 @@ MiniPad 用 Swift 调用系统随航，启动时完成三个步骤：
 
 更方便的是，现在我通过 Codex 远程连接这台 Mac，在聊天里说一句“启动”，它就会执行脚本并检查结果。日常使用已经不需要我手动去 Mac 上操作。偶尔仍会遇到连接失败，需要检查状态后重试。
 
+下面是刀塔、星露谷物语和正常桌面的实拍：
+
+![iPad 通过无线随航显示刀塔游戏画面](/images/posts/minipad-wireless-sidecar/01-dota.jpg)
+
+_刀塔游戏画面。_
+
+![iPad 通过无线随航显示星露谷物语游戏画面](/images/posts/minipad-wireless-sidecar/02-stardew-valley.jpg)
+
+_星露谷物语游戏画面。_
+
+![iPad 通过无线随航显示正常的 macOS 桌面](/images/posts/minipad-wireless-sidecar/03-macos-desktop.jpg)
+
+_正常的 macOS 桌面。_
+
 ## 总结
 
 这个小项目把“连接随航、维持显示环境、切换主屏”收进了一条命令，再由 Codex 提供一个方便的启动入口。对我来说，iPad 当 Mac mini 屏幕这件事，终于从一次实验变成了可以重复使用的流程。
+
+接下来想做两件事：
+
+1. 从触摸板换成鼠标，真实打几把刀塔，看看完整对局里的延迟和操作体验。
+2. 接入 iPad 声音输出，让声音由 iPad 播放，替代目前的 Mac mini 扬声器输出。
 
 目前仍需要 Mac 已登录并保持唤醒，iPad 可以被发现。冷启动解锁不在当前方案的能力范围内，自动重连尚未实现，长期保持与睡眠恢复还需要验证；声音也仍由 Mac 播放。底层用了私有接口，后续 macOS 更新还需要重新验证兼容性。
