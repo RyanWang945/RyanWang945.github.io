@@ -2,7 +2,7 @@
 title: "MiniPad 让 iPad 成为 Mac mini 的无线主屏"
 pubDatetime: 2026-11-17T15:18:00+08:00
 featured: false
-draft: true
+draft: false
 tags:
   - macos
   - ipad
